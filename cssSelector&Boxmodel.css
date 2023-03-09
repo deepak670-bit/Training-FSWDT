@@ -1,0 +1,55 @@
+ /* element selector */
+/* h2,p{
+    background-color: black;
+    color:aquamarine;
+
+} 
+p{
+    background-color: black;
+    color: rgb(243, 0, 0);
+} */
+
+
+ /* 2.element selector list */
+/* h2,p{
+    background-color: black;
+    color:aquamarine;
+
+} 
+/*  3.universal Selector */
+/* *{
+    background-color: black;
+    border:3px  dotted  greenyellow;
+    color:aquamarine;
+ } 
+  */
+
+
+  /* 4.id selector */
+ /*  #text3{
+    background-color: black;
+    border:3px  dotted  greenyellow;
+    color:aquamarine;
+  } */
+
+  /* 5.class selector */
+ /*  .classselector{
+    background-color: rgb(204, 9, 155);
+    border:5px  solid greenyellow;
+    color:rgb(18, 109, 9);
+    width: 100px;
+    height: 100px;
+    border-radius:900px; 
+  } */
+ /*  UNits in css */
+ /* px,%,vh,vw,rem,em */
+
+  /* 6. Descendent selector */
+/*   li a{
+    color: blue;
+    background:red ;
+  } */
+ b i{
+    color: blueviolet;
+    background-color: rgb(209, 189, 11);
+  }

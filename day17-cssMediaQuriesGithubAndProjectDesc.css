@@ -1,0 +1,63 @@
+/* Screen size is the range of 0-1200 */
+/* @media screen and (max-width: 1200px) {
+  h2 {
+    color: chartreuse;
+    font-size: 50px;
+  }
+  p {
+    color: chocolate;
+    font-size: 60px;
+  }
+}*/
+/* Screen size is the range of 0-400 */
+/* @media screen and (max-width: 800px) {
+  h2 {
+    color: crimson;
+    font-size: 50px;
+  }
+  p {
+    color: rgb(13, 0, 255);
+    font-size: 70px;
+  }
+} */
+/* Screen size is the range of 0-800 */
+/* @media screen and (max-width: 400px) {
+  h2 {
+    color: rgb(9, 68, 117);
+    font-size: 40px;
+  }
+  p {
+    color: red;
+    font-size: 250px;
+  }
+} */
+
+/* 
+>>max-width
+  Eg: max-width:400px{Screen size is <=400px}==>Atmost
+>>min-width
+   Eg: min-width:400px{Screen size is >=400px} ==>Atleast
+*/
+/* Screen size is the range of 0-800 */
+@media screen and (min-width: 400px) {
+    h2 {
+      color: rgb(9, 68, 117);
+      font-size: 40px;
+    }
+    p {
+      color: red;
+      font-size: 250px;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    h2 {
+      color: rgb(145, 224, 18);
+      font-size: 40px;
+    }
+    p {
+      color: rgb(255, 0, 191);
+      font-size: 250px;
+    }
+  }
+  

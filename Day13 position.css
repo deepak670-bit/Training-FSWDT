@@ -1,0 +1,76 @@
+/* position in css */
+/* 
+1. Static:
+     >>its by default
+     >> it will occupy some empty space
+      */
+      div{
+        position:static;
+        color: white;
+        background-color: black;
+        border: 2px solid red;
+      }
+      /* Relative 
+            >> Its relative to its original position/static/default position
+             >>Offset (Top,Right,Left,Bottom
+       */
+
+      div{
+        position:relative;
+        color: white;
+        background-color: black;
+        border: 2px solid red;
+        top: 25px;
+        left: 16px;
+      }
+      /* fixed 
+            >> Here the highlighted section  will be
+                fixed to a specific [position even
+                on scrolling either of the direction    */
+       div{
+        position:fixed;
+        color: white;
+        background-color: black;
+        border: 2px solid red;
+        top: 25px;
+        left: 16px;
+      } 
+
+ /* Absolute 
+        >>its should always have a parent 
+        >> The parent should be of position relative 
+        >> Offset value are wrt to the parent not wrt to the entire UI
+        
+        
+        >> if we dont have anyb parent for position:absolute
+        >> Then by default it consider the body as the parent
+        >> Any body exactly acts as relative in nature 
+        */ 
+      #parent {
+            position: relative;
+            height: 250px;
+            width: 250px;
+            border: 2px dashed black;
+        } 
+        div{
+            position:absolute;
+            color: white;
+            background-color: black;
+            border: 1px solid red;
+            top: 30px;
+            left:50px;
+          } 
+        /* Sticky 
+            >>It will be scrolled to certain extent and 
+            later it juz get fixed or sticked to the position
+            >>
+            >>
+            */
+          div{
+            position:sticky;
+            color: white;
+            background-color: black;
+            border: 1px solid red; 
+            top: 190px;
+            left:50px;
+          } 

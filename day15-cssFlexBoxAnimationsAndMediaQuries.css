@@ -1,0 +1,49 @@
+.parent{
+    background-color: rgb(1, 17, 2);
+    display: flex;
+    /* row,row-reverse,column,cloumn-reverse */
+    flex-direction:center;
+    gap: 10px;
+    /* flex-start,flex-end,centre,space-evenly,
+    space-between,space-evenly */
+    justify-content:center;
+    /* column: flex-start,end ,centre ,strech */
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.child{
+    height: 100px; 
+     width: 100px;  
+    /* flex: 1; */
+    background-color:aqua;
+    border: 2px solid rgb(183, 245, 67);
+   /*  margin: 10px;
+     */
+}
+
+
+/* Animation */
+
+button{
+    background-color: black;
+    color: aqua;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* transition properties */
+    /* transition-delay: 300ms; 
+    transition-duration: 330ms;  */
+    /* all */
+    transition-property: background-color color;
+    /* linear proprety (ease,ease-in,ease-out,ease-in-out*/
+    transition-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
+
+}
+button:hover{
+    background-color: chartreuse;
+    color: rgb(70, 49, 23);
+    cursor: pointer;
+
+}

@@ -1,0 +1,67 @@
+/* 
+Hover
+    >>Pointing curser on the button 
+*/
+/* button:hover{
+    color: rgb(248, 243, 243);
+    background-color: black;
+    cursor:pointer;
+} */
+/* Active
+    >>when we hold the left kay of the mouse 
+    it will be highlighted
+ */
+ /* button:active{
+     border: 5px solid red;
+ } */
+
+ /* Focus
+    >>Indicating you already visited the button 
+ */
+ /* button:focus{
+    background-color: blueviolet;
+    color: azure;
+ } */
+ /* anchor visited link state */
+ /* a:link{
+    color: blue;
+ } */
+ /* a:visited{
+    color: brown;
+ } */
+
+/*  span{
+    padding: 8px;
+    margin: 8px;
+    background-color: blue;
+ } */
+ /* child{
+    background-color: darkcyan;
+ }
+ span:first-child{
+    background-color: darkgreen;
+ } 
+ /* span:nth-child(5){
+    background-color: darkgreen;
+ }  */
+ /* span:nth-child(odd){
+    background-color: teal;
+ }  */
+
+
+ /* Pseudo element  (before) */
+ /* h1::before{
+    content:  "hello";
+    background-color: black;
+    color: cyan;
+ }
+ h1::after{
+    content: "good morng";
+ }
+ */
+ .shape{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: brown;
+ }

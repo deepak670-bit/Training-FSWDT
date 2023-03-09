@@ -1,0 +1,44 @@
+.box{
+    background-color: black;
+    height:100rem;
+    width:100rem;
+}
+
+
+.ball{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: chartreuse;
+   
+}
+
+
+.ball:hover{
+    animation: moveTheBall 3s ease-in-out forwards ;
+
+}
+
+@keyframes moveTheBall {
+        25%{
+            transform: translate(100px,0);
+        
+        }
+        50%{
+            transform: translate(100px,-100%);
+            background-color: aqua;
+            border-radius: 25%;
+        }
+        75%{
+            transform: translate(0,100%);
+            background-color: beige;
+            border-radius: 55%;
+        }
+        100%{
+            transform: translate(0,0);
+            border-radius: 300%;
+            background-color: darkorange;
+        }
+    
+    
+}
